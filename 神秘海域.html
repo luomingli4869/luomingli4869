@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战神</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(128, 128, 128, 0.636);
+            margin: 0 auto;
+            padding: 0.8vh;
+            padding-bottom: 1vh;
+            top: 0%;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1vh;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 2vh;
+            font-size: 2vh;
+            padding: 1vh;
+            border-radius: 1vh;
+            transition: background-color 0.3s ease;
+            height: 2.5vh;
+        }
+        nav a:hover{
+            background-color: rgba(255, 255, 255,0.5);
+        }
+        nav.current{
+            background-color: rgba(255, 255, 255,0.5);
+        }
+        .main{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('image/神秘海域.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .text1, .text2 {
+            font-size: 2vh;
+            font-family: '幼圆';
+            line-height: 1.6;
+            text-align: justify;
+            position: absolute;
+            
+            max-width: 36vh;
+        }
+        
+        .text1 {
+            color: rgb(228, 239, 26);
+            left: 5%;
+            top: 17%;
+        }
+        
+        .text2 {
+            color: rgb(87, 255, 57);
+            left: 77%;
+            top: 25%;
+        }
+
+        .text1 span, .text2 span {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="战神.html">战神</a></li>
+                <li><a href="地平线.html">地平线</a></li>
+                <li><a href="最终生还者.html">最终生还者</a></li>
+                <li><a href="神秘海域.html">神秘海域</a></li>
+            </ul>
+        </nav>
+
+        <p class="text1">
+            <span>内森·德雷克（Nathan Drake）原本已经退休，和他的妻子艾莲娜（Elena）过着平静的生活。但他的哥哥山姆（Sam）突然出现，带来了一张藏宝图，希望内森能和他一起寻找18世纪海盗亨利·艾弗里（Henry Avery）的宝藏。尽管内森犹豫，但最终还是决定和山姆一起踏上寻宝之旅。他们来到了被称为“里哈达利亚”的地方，与反派宝藏猎人拉斐（Rafe）和娜丁（Nadine）展开了竞争。在一系列的冒险和战斗中，内森和山姆发现了传说中的海盗乌托邦“利伯塔利亚”（Libertalia）的线索，并最终找到了宝藏的所在地。</span>
+        </p>
+        <p class="text2">
+            <span>在寻宝的过程中，内森和山姆的关系经历了考验，内森也不得不面对自己的过去和未来。最终，他们找到了宝藏，并成功逃脱了拉斐的追击。内森和艾莲娜决定继续他们的冒险生活，而山姆则和苏利文（Sully）一起开始了新的旅程。故事以内森和艾莲娜买下了詹姆斯的打捞公司，准备合法寻宝，以及他们的女儿在玩《古惑狼》游戏的场景作为结尾，为整个系列画上了一个圆满的句号。</span>
+        </p>
+    </div>
+</body>
+</html>

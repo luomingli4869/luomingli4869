@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战神</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(128, 128, 128, 0.636);
+            margin: 0 auto;
+            padding: 0.8vh;
+            padding-bottom: 1vh;
+            top: 0%;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1vh;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 2vh;
+            font-size: 2vh;
+            padding: 1vh;
+            border-radius: 1vh;
+            transition: background-color 0.3s ease;
+            height: 2.5vh;
+        }
+        nav a:hover{
+            background-color: rgba(255, 255, 255,0.5);
+        }
+        nav.current{
+            background-color: rgba(255, 255, 255,0.5);
+        }
+        .main{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('image/战神.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .text1, .text2 {
+            font-size: 2vh;
+            font-family: '幼圆';
+            line-height: 1.6;
+            text-align: justify;
+            position: absolute;
+            top: 15%;
+            max-width: 36vh;
+        }
+        
+        .text1 {
+            color: rgb(228, 239, 26);
+            left: 5%;
+        }
+        
+        .text2 {
+            color: rgb(239, 26, 218);
+            left: 72%;
+        }
+
+        .text1 span, .text2 span {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="战神.html">战神</a></li>
+                <li><a href="地平线.html">地平线</a></li>
+                <li><a href="最终生还者.html">最终生还者</a></li>
+                <li><a href="神秘海域.html">神秘海域</a></li>
+            </ul>
+        </nav>
+
+        <p class="text1">
+            <span>战神4主要剧情：很久以前，因为希腊神话中的战神阿瑞斯的策略，奎托斯失去了最爱的家人。愤怒的奎托斯开始向希腊的众神挑战，并且成功复仇。之后奎托斯抛下了凄惨的过去，来到了北欧并且获得了新的家庭。因为有着染血的过去，所以奎托斯一直和自己的儿子保持着一段距离。但是，因为妻子的突然死亡，奎托斯再次复出，为了完成妻子的遗言，他踏上了前往由北欧神话的诸神掌管的米兹伽尔兹之地的旅途。</span>
+        </p>
+        <p class="text2">
+            <span>战神5主要剧情：在前作《战神4》时间线大约三年多之后。芬布尔之冬已经完全降临。这意味着诸神黄昏已经迫在眉睫。因受到约顿海姆预言壁画的影响，阿特柔斯急迫的想要知道自己的另一个身份洛基究竟意味着什么，以及他又将在诸神黄昏中扮演怎样的角色。但是，奎托斯并不打算再一次介入到神灵的战争之中，只想保护好自己的家庭。成长到了青春期的阿特柔斯逐渐更多的展现出了一些‘青春期的叛逆。开始希望能够更多的按照自己的想法行动。但奎托斯还是那个严父，尽管是出于保护欲但他还是禁止阿特柔斯自由行动。一来二去，父子间难免又发生冲突。阿特柔斯就如同其他叛逆少年一样越压制越逆反，最后终于离开奎托斯单独行动。</span>
+        </p>
+    </div>
+</body>
+</html>
